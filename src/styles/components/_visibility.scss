@@ -5,7 +5,12 @@
 }
 
 .show-for-desktop {
+  @media(max-width: $desktop-breakpoint - 1px) {
+    display: none;
+  }
+  /*
   @media(max-width: $desktop-breakpoint - .01rem) {
     display: none;
   }
+   */
 }
