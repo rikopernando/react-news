@@ -10,10 +10,10 @@ exports[`Should be rendered LoginPage 1`] = `
     <h1
       className="box-layout__title"
     >
-      Boilerplate
+      React News
     </h1>
     <p>
-      Tag line for app.
+      Welcome to React News.
     </p>
     <button
       className="button"

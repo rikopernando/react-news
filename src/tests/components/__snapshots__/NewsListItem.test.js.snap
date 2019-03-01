@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should rendered NewsListItem correctyly 1`] = `
+<div
+  className="list-news"
+>
+  <t
+    afterLoad={[Function]}
+    beforeLoad={[Function]}
+    className="list-news__image"
+    delayMethod="throttle"
+    delayTime={300}
+    effect="blur"
+    placeholderSrc=""
+    src="http://cdn2.tstatic.net/jateng/foto/bank/images/pengidap-hiv-aids-anak-ditolak-sekolah.jpg"
+    threshold={100}
+    visibleByDefault={false}
+    wrapperClassName=""
+  />
+  <div>
+    <h3
+      className="list-news__title"
+    >
+      Ganjar Minta 14 Anak Pengidap HIV/Aids yang Ditolak Sekolah Temui Wali Kota Solo - Tribun Jateng
+    </h3>
+    <p
+      className="list-news__description"
+    >
+      Kasus 14 anak pengidap HIV/AIDS (ADHA) yang ditolak sekolah di SDN Purwotomo Solo mendapat perhatian serius Gubernur Jawa Ten...
+    </p>
+    <p
+      className="list-news__author"
+    >
+      faisal affan
+       - 
+      16/2/2019
+    </p>
+  </div>
+</div>
+`;

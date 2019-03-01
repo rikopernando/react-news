@@ -2,6 +2,14 @@
 
 exports[`should render DashboardPage correctly 1`] = `
 <div>
-  Dashboard Page Content
+  <div
+    className="content-container"
+  >
+    <h2>
+      Indonesia news
+    </h2>
+    <hr />
+  </div>
+  <Connect(NewsList) />
 </div>
 `;

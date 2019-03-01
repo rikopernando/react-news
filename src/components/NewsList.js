@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import NewsListItem from './NewsListItem'
 
-const NewsList = ({ news }) => (
+export const NewsList = ({ news }) => (
   <div className="content-container">
     {
       news.map((news, key) => {

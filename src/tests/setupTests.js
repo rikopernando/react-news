@@ -7,3 +7,4 @@ Enzyme.configure({
 })
 
 DotEnv.config({path: '.env.test'})
+global.fetch = require('jest-fetch-mock')

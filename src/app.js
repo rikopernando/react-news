@@ -10,6 +10,7 @@ import LoadingPage from './components/LoadingPage'
 import 'normalize.css/normalize.css'
 import './styles/styles.scss'
 import 'react-dates/lib/css/_datepicker.css'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const store = configureStore()
 console.log(store)
