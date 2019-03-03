@@ -1,0 +1,12 @@
+footer {
+    padding: 20px 0;
+    border-top: 3px solid $off-white;
+    margin: 30px auto;
+    max-width: 80rem;
+}
+
+footer .footer-bar {
+    display: flex;
+    justify-content: space-between;
+    color: $grey;
+}

@@ -66,16 +66,22 @@
   display: flex;
   justify-content: space-between;
   padding-top: $s-size;
+  color: $dark-grey;
+  text-decoration: none;
+  transition: background .3s ease;
+  &:hover {
+    background: $off-white;
+  }
 }
 
 .list-news__image {
   width: 332px;
   height: 186px;
-  @media (max-width: $tablet-breakpoint) {
+  @media only screen and (max-width: $tablet-breakpoint) {
     width: 150px;
     height: 94px;
   }
-  @media (max-width: $mobile-breakpoint) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     width: 96px;
     height: 54px;
   }

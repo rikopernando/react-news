@@ -13,7 +13,6 @@ import 'react-dates/lib/css/_datepicker.css'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const store = configureStore()
-console.log(store)
 const jsx = (
   <Provider store={store}>
     <AppRouter />

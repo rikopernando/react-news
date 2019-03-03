@@ -7,7 +7,7 @@ export const NewsList = ({ news }) => (
     {
       news.map((news, key) => {
         return (
-          <NewsListItem key={key} {...news} />
+          <NewsListItem index={key} key={key} {...news} />
         )
       })
     }
